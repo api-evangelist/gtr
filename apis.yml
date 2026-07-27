@@ -1,7 +1,24 @@
 aid: gtr
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gtr.png
 name: GTR
-description: GTR is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: GTR (Global Top Round) was a mobile game accelerator program that annually selected roughly
+  ten indie mobile game studios, providing them global publishing connections, real global game-market
+  and network access, mentorship, and fundraising support through a six-month accelerator program and
+  the Global Top Round global mobile game conference. It was surfaced as a 500 Global portfolio company
+  and added to the API Evangelist network as a stub. As of enrichment (July 2026) the company website
+  globaltopround.com no longer resolves (no DNS A/NS records) and GTR appears to be defunct; it exposes
+  no public API, developer platform, documentation, or SDK, so there is no API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/gtr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,23 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-domain-status: unresolved
+x-enrichment-note: 'Mobile game accelerator (not an API provider); website dead as of 2026-07-19,
+  no DNS. Identity reconstructed from Wayback Machine 2015 snapshot of globaltopround.com. No API/OpenAPI/docs/SDK/well-known
+  surface exists to search, generate, or derive. No fabrication.'
+x-archive-source: https://web.archive.org/web/20150510212514/http://www.globaltopround.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Accelerator
+- Mobile Games
+- Gaming
+- Game Publishing
+- Startups
+- Venture
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,8 @@ maintainers:
 common:
 - type: Website
   url: https://globaltopround.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
