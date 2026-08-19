@@ -32,7 +32,7 @@ x-enrichment-note: 'Mobile game accelerator (not an API provider); website dead 
   no DNS. Identity reconstructed from Wayback Machine 2015 snapshot of globaltopround.com. No API/OpenAPI/docs/SDK/well-known
   surface exists to search, generate, or derive. No fabrication.'
 x-archive-source: https://web.archive.org/web/20150510212514/http://www.globaltopround.com/
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
